@@ -10,6 +10,10 @@
     border: none;
 }
 
+span{
+    display: block;
+}
+
 body{
     background-image: url("../img/mobile/BG.png");
     background-repeat: no-repeat;
@@ -153,6 +157,129 @@ main hr{
 }
 
 /* SECTION TWO */
+
+.section-two{
+    margin-top: 9rem;
+}
+
+.section-two h2{
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 7.2rem;
+    line-height: 8.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+
+.section-two p{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 3.7rem;
+    text-align: center;
+    color: #79788F;
+}
+
+.sec-two-premium{
+    margin-top: 5rem;
+}
+
+.sec-two-space{
+    margin-top: 2rem;
+}
+
+.sec-two-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-two-item1,
+.sec-two-item3{
+    display: none;
+}
+
+.sec-two-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+    background: url("../img/mobile/BG2.png");
+    background-repeat: no-repeat;
+    background-position: top 0, left 0;
+    width: 96%;
+    border-radius: 8px;
+}
+
+.sec-two-most{
+    margin-top: 5.7rem;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #40BF3D;
+}
+
+.sec-two-days{
+    margin-top: 1.4rem;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 4.8rem;
+    text-align: center;
+    color: #3B668D;
+}
+
+.sec-two-price{
+    margin-top: 2.8rem;
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 6.4rem;
+    text-align: center;
+    color: #8572FF;
+}
+
+.sec-two-line{
+    margin-top: 5.1rem;
+    background: #D3D3D3;
+    border: none;
+    width: 18.6rem;
+    height: 1px;
+}
+
+.sec-two-cards-items ul{
+    margin-top: 5.3rem;
+    width: 29.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.sec-two-cards-items li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec-two-card-info span{
+    font-family: 'Comfortaa';
+    font-weight: 400;
+    font-size: 2rem;
+    color: #567796;
+}
+
+.sec-two-btn{
+    margin-top: 7rem;
+    height: 5.5rem;
+    width: 18.6rem;
+    border-radius: 6.2rem;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
 
 
 
