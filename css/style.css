@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Montserrat&family=Poppins:wght@500&family=Roboto:wght@300;400;500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+}
+
+body{
+    background-image: url("../img/mobile/BG.png");
+    background-repeat: no-repeat;
+    background-position: top 0, left 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HEADER */
+nav, .login{
+    display: none;
+}
+
+header{
+    margin-top: 2.5rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-img{
+    order: 1;
+    margin-top: 5.6rem;
+}
+
+.main-info{
+    order: 2;
+    margin-top: 4.1rem;
+    width: 90%;
+}
+
+h1{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 7.2rem;
+    line-height: 7rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+
+.main-online{
+    margin-top: 1rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 150%;
+    letter-spacing: 0.35em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+
+main hr{
+    display: none;    
+}
+
+.main-info h3{
+    margin-top: 3rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 2.6rem;
+    line-height: 156%;
+    text-transform: uppercase;
+    color: #3B668D;
+}
+
+.main-upload{
+    margin-top: 1.3rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 156%;
+    letter-spacing: 0.075em;
+    color: #2B4964;
+}
+
+.main-btn{
+    margin-top: 4.9rem;
+}
+
+/* SECTION ONE */
+
+.sec-one-img,
+.sec-one-info-items img{
+    display: none;
+}
+
+.section-one{    
+    background: url("../img/mobile/BG1.png");
+    background-repeat: no-repeat;
+    background-position: top 0, left 0;
+    background-size: cover;    
+}
+
+.sec-one-info{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.sec-one-info-items h3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 2.8rem;
+    line-height: 6rem;
+    color: #000000;
+}
+
+
+
+
+
+
