@@ -130,7 +130,7 @@ main hr{
     margin-bottom: 15rem;
 }
 
-.sec-one-info-items div{
+.sec-one-info-items-div{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -378,6 +378,217 @@ footer{
     margin-bottom: 4.3rem;
 }
 
+/* DESKTOP VERSION */
+
+@media screen and (min-width: 1920px){
+    body{
+        background: url('../img/desktop/BG.png');
+        background-repeat: no-repeat;
+        background-position: top 0 left 0;
+    }
+
+    /* HEADER */
+    header{
+        width: 82%;
+        margin-left: 18%;
+    }
+    
+    .menu{
+        display: none;
+    }
+    nav{
+        display: flex;
+        gap: 7rem;
+    }
+
+    nav a{
+        font-family: 'Comfortaa';
+        font-weight: 700;
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
+
+    .login{
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+        margin-right: 35rem;
+    }
+
+    .login a{
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 1.3rem;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    .login button{
+        width: 13.2rem;
+        height: 3.6rem;
+        background: #FFFFFF;
+        border-radius: 3rem;
+
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        text-align: center;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #BB6DF3;
+    }
+
+            /* MAIN */
+
+     main{
+        flex-direction: row;
+        width: 82%;
+        margin-left: 18%;
+        margin-top: 19rem;
+     }
+     
+     .main-img{
+        order: 2;
+        width: 50%;
+    }
+    
+    .main-info{
+        order: 1;
+        width: 50%;
+    }
+
+    h1{       
+        text-align: left;
+    }
+
+    .main-online{
+        text-align: left;
+    }
+
+    main hr{
+        margin-top: 3.2rem;
+        display: block;
+        height: 2px;
+        width: 50.6rem;
+        background: #3B668D;
+    }
+
+    .main-info h3{
+        margin-top: 4.5rem;
+    }
+
+    /* SECTION ONE */
+
+    .section-one{
+        margin-top: 23rem;
+        background: #fff;
+        display: flex;
+        width: 100%;
+        
+    
+    }
+
+    .sec-one-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background-image: url('../img/desktop/BG\ \(1\).png');
+        background-repeat: no-repeat;
+        background-position: top 0 left 0;
+        background-size: cover;
+        margin-bottom: -7rem;
+    }
+
+    .sec-one-info{
+        width: 50%;
+        margin: 0;
+        gap: 4rem;
+    }
+
+    .sec-one-info-items img{
+        display: block;
+    }
+
+    .sec-one-img-box{
+        width: 7.5rem;
+        height: 7.5rem;
+        background: url('../img/desktop/bg7.png') no-repeat center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sec-one-info-items{
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .sec-one-info-items h3{
+        font-size: 3.6rem;
+        line-height: 6rem;
+        color: #3B668D;
+        max-width: 48.8rem;
+    }
+
+    .sec-one-info-items p{
+        color: #2B4964;
+    }
+
+        /* SECTION TWO */
+
+        .section-two{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: url('../img/desktop/BG\ \(2\).png');
+            background-repeat: no-repeat;
+            background-position: top 425px left 0;
+        }
+    .sec-two-item1,
+    .sec-two-item3{
+    display: block;
+    }
+
+    .sec-two-cards{
+        width: 80%;
+        flex-direction: row;
+        gap: 2.5rem;
+        margin-bottom: 25rem;
+    }
+
+    .sec-two-cards-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7rem;        
+        width: 30%;
+        border-radius: 2rem;        
+    }
+
+    .sec-two-item1{
+        background: url("../img/desktop/BG\ \(3\).png");
+        background-repeat: no-repeat;
+        background-position: top 0 left 0;
+    }
+
+    
+    .days1, .days3{
+        margin-top: 18.2rem;
+    }
+
+    .sec-two-item3{
+        background: url("../img/desktop/BG\ \(5\).png");
+        background-repeat: no-repeat;
+        background-position: top 0 left 0;
+    }
+
+    
+}
 
 
 
